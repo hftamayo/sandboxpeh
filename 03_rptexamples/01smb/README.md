@@ -16,11 +16,13 @@ using arbitraty code -a payload for example- it is possible to obtain root privi
 6) run
 
 ## Supporting Material:
-
+1) Gaining root privileges:
 ![samba_trans2open_01.png](./media/samba_trans2open_01.png?raw=true "Gaining root Privilege")
 
+2) Directory listing:
 ![samba_trans2open_02.png](./media/samba_trans2open_02.png?raw=true "Directory Listing")
 
+3) Accessing to mail server:
 ![samba_trans2open_03.png](./media/samba_trans2open_03.png?raw=true "Accesing to mail server")
 
 ## Impact:
