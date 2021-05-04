@@ -10,17 +10,21 @@ The next report examples are based after the analysis and escalation of Vulnhub'
 ###### **4)https://docs.hackerone.com/hackers/quality-reports.html**
 
 ## Report 1: Privilege Escalation using Samba
-###### Summary
-Identifying the Samba Version it is possible to use the vulnerability know as trans2open to obtain root privileges to the system.
+###### Summary:
+Taking advance of the Samba Version installed on Kioptrix L1, it is possible to use the vulnerability known as trans2open to obtain root privileges into the system.
+[More Details.](01smb/README.md)
 
 ## Report 2: Privilege Escalation using Secure Socket Layer
-###### Summary
-Using the version of the protocol Secure Socket Layer and Apache Application Server installed in the machine is possible to obtain root privileges into the system.
+###### Summary:
+The version of the protocol Secure Socket Layer and Apache Application Server in Kioptrix allow to obtain root privileges into the system.
+[More Details.](02ssl/README.md)
 
 ## Report 3: Privilege Escalation of PostgreSQL 
-###### Summary
-(./images/hyperdrive_results.png?raw=true "TODO")
+###### Summary:
+Using the above vulnerabilities found, it is possible to get full access to the PostgreSQL deployed in Kioptrix L1.
+[More Details.](03dbms/README.md)
 
-## Report 4: User's password credential audit
-###### Summary
-(./images/hyperdrive_results.png?raw=true "TODO"))
+## Report 4: User's password credentials audit
+###### Summary:
+As a part of the privilege escalation in Kioptrix L1, it is possible to obtain the password hashes and decrypt them.
+[More Details.](04pwaudit/README.md)
