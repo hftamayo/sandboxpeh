@@ -29,3 +29,4 @@ using arbitraty code -a payload for example- it is possible to obtain root privi
 ![samba_trans2open_03.png](./media/samba_trans2open_03.png?raw=true "Accesing to mail server")
 
 ## Impact:
+The exploitation of this issue compromise 100% the integrity of the Kioptrix L1 Server: sourcecode, user's credentials, directories, files and logs
