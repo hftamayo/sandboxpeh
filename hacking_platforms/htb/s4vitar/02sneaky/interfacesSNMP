@@ -1,0 +1,20 @@
+# Nmap 7.91 scan initiated Wed May 26 19:16:54 2021 as: nmap --script snmp-interfaces -p161 -sU -oN interfacesSNMP 10.129.1.179
+Nmap scan report for 10.129.1.179
+Host is up (0.071s latency).
+
+PORT    STATE SERVICE
+161/udp open  snmp
+| snmp-interfaces: 
+|   lo
+|     IP address: 127.0.0.1  Netmask: 255.0.0.0
+|     Type: softwareLoopback  Speed: 10 Mbps
+|     Status: up
+|     Traffic stats: 0.00 Kb sent, 0.00 Kb received
+|   eth0
+|     IP address: 10.129.1.179  Netmask: 255.255.0.0
+|     MAC address: 00:50:56:b9:d1:a4 (VMware)
+|     Type: ethernetCsmacd  Speed: 4 Gbps
+|     Status: up
+|_    Traffic stats: 8.40 Kb sent, 139.07 Kb received
+
+# Nmap done at Wed May 26 19:16:59 2021 -- 1 IP address (1 host up) scanned in 5.26 seconds
