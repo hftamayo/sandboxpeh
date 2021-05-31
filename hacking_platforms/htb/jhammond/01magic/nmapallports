@@ -1,0 +1,9 @@
+# Nmap 7.91 scan initiated Sun May 30 05:26:54 2021 as: nmap -p- -oN nmapallports 10.129.1.129
+Nmap scan report for 10.129.1.129
+Host is up (0.19s latency).
+Not shown: 65533 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+# Nmap done at Sun May 30 05:32:50 2021 -- 1 IP address (1 host up) scanned in 355.94 seconds

@@ -1,0 +1,28 @@
+[2K[Status: 302, Size: 0, Words: 1, Lines: 1]
+[2K| URL | http://10.129.23.72:8080/docs
+[2K| --> | /docs/
+[2K    * FUZZ: docs
+
+[2K[Status: 302, Size: 0, Words: 1, Lines: 1]
+[2K| URL | http://10.129.23.72:8080/examples
+[2K| --> | /examples/
+[2K    * FUZZ: examples
+
+[2K[Status: 302, Size: 0, Words: 1, Lines: 1]
+[2K| URL | http://10.129.23.72:8080/host-manager
+[2K| --> | /host-manager/
+[2K    * FUZZ: host-manager
+
+[2K[Status: 200, Size: 1895, Words: 201, Lines: 30]
+[2K| URL | http://10.129.23.72:8080/index.html
+[2K    * FUZZ: index.html
+
+[2K[Status: 200, Size: 1895, Words: 201, Lines: 30]
+[2K| URL | http://10.129.23.72:8080/index.html
+[2K    * FUZZ: index.html
+
+[2K[Status: 302, Size: 0, Words: 1, Lines: 1]
+[2K| URL | http://10.129.23.72:8080/manager
+[2K| --> | /manager/
+[2K    * FUZZ: manager
+

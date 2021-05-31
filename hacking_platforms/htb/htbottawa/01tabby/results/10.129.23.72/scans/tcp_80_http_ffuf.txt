@@ -1,0 +1,118 @@
+[2K[Status: 403, Size: 277, Words: 20, Lines: 10]
+[2K| URL | http://10.129.23.72:80/.hta.txt
+[2K    * FUZZ: .hta.txt
+
+[2K[Status: 403, Size: 277, Words: 20, Lines: 10]
+[2K| URL | http://10.129.23.72:80/.hta
+[2K    * FUZZ: .hta
+
+[2K[Status: 403, Size: 277, Words: 20, Lines: 10]
+[2K| URL | http://10.129.23.72:80/.hta.html
+[2K    * FUZZ: .hta.html
+
+[2K[Status: 403, Size: 277, Words: 20, Lines: 10]
+[2K| URL | http://10.129.23.72:80/.hta.asp
+[2K    * FUZZ: .hta.asp
+
+[2K[Status: 403, Size: 277, Words: 20, Lines: 10]
+[2K| URL | http://10.129.23.72:80/.hta.aspx
+[2K    * FUZZ: .hta.aspx
+
+[2K[Status: 403, Size: 277, Words: 20, Lines: 10]
+[2K| URL | http://10.129.23.72:80/.hta.php
+[2K    * FUZZ: .hta.php
+
+[2K[Status: 403, Size: 277, Words: 20, Lines: 10]
+[2K| URL | http://10.129.23.72:80/.htaccess
+[2K    * FUZZ: .htaccess
+
+[2K[Status: 403, Size: 277, Words: 20, Lines: 10]
+[2K| URL | http://10.129.23.72:80/.htaccess.php
+[2K    * FUZZ: .htaccess.php
+
+[2K[Status: 403, Size: 277, Words: 20, Lines: 10]
+[2K| URL | http://10.129.23.72:80/.hta.jsp
+[2K    * FUZZ: .hta.jsp
+
+[2K[Status: 403, Size: 277, Words: 20, Lines: 10]
+[2K| URL | http://10.129.23.72:80/.htaccess.html
+[2K    * FUZZ: .htaccess.html
+
+[2K[Status: 403, Size: 277, Words: 20, Lines: 10]
+[2K| URL | http://10.129.23.72:80/.htaccess.txt
+[2K    * FUZZ: .htaccess.txt
+
+[2K[Status: 403, Size: 277, Words: 20, Lines: 10]
+[2K| URL | http://10.129.23.72:80/.htaccess.asp
+[2K    * FUZZ: .htaccess.asp
+
+[2K[Status: 403, Size: 277, Words: 20, Lines: 10]
+[2K| URL | http://10.129.23.72:80/.htaccess.aspx
+[2K    * FUZZ: .htaccess.aspx
+
+[2K[Status: 403, Size: 277, Words: 20, Lines: 10]
+[2K| URL | http://10.129.23.72:80/.htaccess.jsp
+[2K    * FUZZ: .htaccess.jsp
+
+[2K[Status: 403, Size: 277, Words: 20, Lines: 10]
+[2K| URL | http://10.129.23.72:80/.htpasswd
+[2K    * FUZZ: .htpasswd
+
+[2K[Status: 403, Size: 277, Words: 20, Lines: 10]
+[2K| URL | http://10.129.23.72:80/.htpasswd.txt
+[2K    * FUZZ: .htpasswd.txt
+
+[2K[Status: 403, Size: 277, Words: 20, Lines: 10]
+[2K| URL | http://10.129.23.72:80/.htpasswd.php
+[2K    * FUZZ: .htpasswd.php
+
+[2K[Status: 403, Size: 277, Words: 20, Lines: 10]
+[2K| URL | http://10.129.23.72:80/.htpasswd.asp
+[2K    * FUZZ: .htpasswd.asp
+
+[2K[Status: 403, Size: 277, Words: 20, Lines: 10]
+[2K| URL | http://10.129.23.72:80/.htpasswd.html
+[2K    * FUZZ: .htpasswd.html
+
+[2K[Status: 403, Size: 277, Words: 20, Lines: 10]
+[2K| URL | http://10.129.23.72:80/.htpasswd.aspx
+[2K    * FUZZ: .htpasswd.aspx
+
+[2K[Status: 403, Size: 277, Words: 20, Lines: 10]
+[2K| URL | http://10.129.23.72:80/.htpasswd.jsp
+[2K    * FUZZ: .htpasswd.jsp
+
+[2K[Status: 200, Size: 1574, Words: 227, Lines: 36]
+[2K| URL | http://10.129.23.72:80/Readme.txt
+[2K    * FUZZ: Readme.txt
+
+[2K[Status: 301, Size: 313, Words: 20, Lines: 10]
+[2K| URL | http://10.129.23.72:80/assets
+[2K| --> | http://10.129.23.72/assets/
+[2K    * FUZZ: assets
+
+[2K[Status: 200, Size: 766, Words: 8, Lines: 2]
+[2K| URL | http://10.129.23.72:80/favicon.ico
+[2K    * FUZZ: favicon.ico
+
+[2K[Status: 301, Size: 312, Words: 20, Lines: 10]
+[2K| URL | http://10.129.23.72:80/files
+[2K| --> | http://10.129.23.72/files/
+[2K    * FUZZ: files
+
+[2K[Status: 200, Size: 14175, Words: 2135, Lines: 374]
+[2K| URL | http://10.129.23.72:80/index.php
+[2K    * FUZZ: index.php
+
+[2K[Status: 200, Size: 14175, Words: 2135, Lines: 374]
+[2K| URL | http://10.129.23.72:80/index.php
+[2K    * FUZZ: index.php
+
+[2K[Status: 200, Size: 0, Words: 1, Lines: 1]
+[2K| URL | http://10.129.23.72:80/news.php
+[2K    * FUZZ: news.php
+
+[2K[Status: 403, Size: 277, Words: 20, Lines: 10]
+[2K| URL | http://10.129.23.72:80/server-status
+[2K    * FUZZ: server-status
+
