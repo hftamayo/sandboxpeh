@@ -1,0 +1,39 @@
+# Nmap 7.91 scan initiated Wed Jun  9 05:31:58 2021 as: nmap -sT -p- --min-rate 5000 -oA beep 10.129.1.226
+Nmap scan report for 10.129.1.226
+Host is up (0.094s latency).
+Not shown: 65503 closed ports
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+25/tcp    open     smtp
+80/tcp    open     http
+110/tcp   open     pop3
+111/tcp   open     rpcbind
+143/tcp   open     imap
+443/tcp   open     https
+941/tcp   open     unknown
+993/tcp   open     imaps
+995/tcp   open     pop3s
+1477/tcp  filtered ms-sna-server
+3306/tcp  open     mysql
+4190/tcp  open     sieve
+4401/tcp  filtered ds-srvr
+4445/tcp  open     upnotifyp
+4559/tcp  open     hylafax
+5038/tcp  open     unknown
+5939/tcp  filtered unknown
+8664/tcp  filtered unknown
+10000/tcp open     snet-sensor-mgmt
+10819/tcp filtered unknown
+14274/tcp filtered unknown
+16771/tcp filtered unknown
+21326/tcp filtered unknown
+23967/tcp filtered unknown
+26539/tcp filtered unknown
+36402/tcp filtered unknown
+36568/tcp filtered unknown
+36591/tcp filtered unknown
+40691/tcp filtered unknown
+60072/tcp filtered unknown
+61792/tcp filtered unknown
+
+# Nmap done at Wed Jun  9 05:32:12 2021 -- 1 IP address (1 host up) scanned in 13.84 seconds

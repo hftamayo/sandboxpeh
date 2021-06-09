@@ -1,0 +1,4 @@
+# Nmap 7.91 scan initiated Wed Jun  9 05:35:15 2021 as: nmap -sC -sV -p 22,25,80,110,111,143,443,745,993,995,3306,4190,4445,4559,5038,10000 -oA beep_openports 10.129.1.226
+Host: 10.129.1.226 ()	Status: Up
+Host: 10.129.1.226 ()	Ports: 22/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/, 25/open/tcp//smtp?///, 80/open/tcp//http//Apache httpd 2.2.3/, 110/open/tcp//pop3?///, 111/open/tcp//rpcbind//2 (RPC #100000)/, 143/open/tcp//imap?///, 443/open/tcp//ssl|https?///, 745/closed/tcp//unknown///, 993/open/tcp//imaps?///, 995/open/tcp//pop3s?///, 3306/open/tcp//mysql?///, 4190/open/tcp//sieve?///, 4445/open/tcp//upnotifyp?///, 4559/open/tcp//hylafax?///, 5038/open/tcp//asterisk//Asterisk Call Manager 1.1/, 10000/open/tcp//http//MiniServ 1.570 (Webmin httpd)/
+# Nmap done at Wed Jun  9 05:45:08 2021 -- 1 IP address (1 host up) scanned in 592.75 seconds

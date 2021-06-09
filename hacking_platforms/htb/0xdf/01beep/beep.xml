@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Wed Jun  9 05:31:58 2021 as: nmap -sT -p- -&#45;min-rate 5000 -oA beep 10.129.1.226 -->
+<nmaprun scanner="nmap" args="nmap -sT -p- -&#45;min-rate 5000 -oA beep 10.129.1.226" start="1623238318" startstr="Wed Jun  9 05:31:58 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.129.1.226" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1623238318" endtime="1623238332"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.129.1.226" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65503">
+<extrareasons reason="conn-refused" count="65503"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="110"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="pop3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="rpcbind" method="table" conf="3"/></port>
+<port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="imap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="941"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="unknown" method="table" conf="3"/></port>
+<port protocol="tcp" portid="993"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="imaps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="995"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="pop3s" method="table" conf="3"/></port>
+<port protocol="tcp" portid="1477"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ms-sna-server" method="table" conf="3"/></port>
+<port protocol="tcp" portid="3306"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="mysql" method="table" conf="3"/></port>
+<port protocol="tcp" portid="4190"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="sieve" method="table" conf="3"/></port>
+<port protocol="tcp" portid="4401"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ds-srvr" method="table" conf="3"/></port>
+<port protocol="tcp" portid="4445"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="upnotifyp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="4559"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="hylafax" method="table" conf="3"/></port>
+<port protocol="tcp" portid="5038"><state state="open" reason="syn-ack" reason_ttl="0"/></port>
+<port protocol="tcp" portid="5939"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="unknown" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8664"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="10000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="snet-sensor-mgmt" method="table" conf="3"/></port>
+<port protocol="tcp" portid="10819"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="14274"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="16771"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="21326"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="23967"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="26539"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="36402"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="36568"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="36591"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="40691"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="60072"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="61792"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+</ports>
+<times srtt="93739" rttvar="3403" to="107351"/>
+</host>
+<runstats><finished time="1623238332" timestr="Wed Jun  9 05:32:12 2021" summary="Nmap done at Wed Jun  9 05:32:12 2021; 1 IP address (1 host up) scanned in 13.84 seconds" elapsed="13.84" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
